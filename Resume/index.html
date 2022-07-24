@@ -4,24 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Resume</title>
 </head>
 <body>
     <!--Main-->
-    <Div>
+    <Div class="main">
+
         <!--Main Content-->
-        <div>
+        <div class="main-content">
+
             <!--about user-->
-            <div>
+            <div class="about-user">
+
                 <h2>Front-End Developer</h2>
 
                 <h1>Anton Chornyi</h1>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                 aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+
             </div>
+
             <!--Projects-->
-            <div>
+            <div class="projects">
+
                 <h3>Projects</h3>
 
                 <ol>
@@ -40,52 +50,66 @@
                         ____________ 
                         [ React.js, Node.js ]
                     </li>
+
                 </ol>                   
             </div>
+
             <!--Work Experience-->
-            <div>
+            <div class="work-experience">
+
                 <h3>Work Experience</h3>
+
                 <!--Company 1-->
-                <div>
+                <div class="company-1">
                     <h4>Front-End Developer Freelance</h4>
 
                     <p>September 2019 - up to now | Country</p>
 
-                    <ul>
+                    <ul class="main-list">
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                         aliqua.</li>
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                         <li>Risus commodo viverra maecenas.</li>
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
                     </ul>
+
                 </div>
+
                 <!--Company 2-->
-                <div>
+                <div class="company-2">
+
                     <h4>Manager Roga & Kopyta New</h4>
                     
                     <p>March 2015 - October 2018 | Country</p>
                     
-                    <ul>
+                    <ul class="main-list">
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua.</li>
                         <li>Quis ipsum suspendisse ultrices gravida.</li>
                         <li>Risus commodo viverra maecenas.</li>
                     </ul>
+
                 </div>
+
                 <!--Company 3-->
-                <div>
+                <div class="company-3">
+
                     <h4>Manager Roga & Kopyta LLC</h4>
                     
                     <p>June 2014 - February 2015 | Country</p>
                     
-                    <ul>
+                    <ul class="main-list">
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                         <li>Quis ipsum suspendisse ultrices gravida.</li>
                         <li>Risus commodo viverra maecenas.</li>
                     </ul>
+
                 </div>
+
             </div>
+
             <!--Education-->
-            <div>
+            <div class="education">
+
                 <h3>Education</h3>
 
                 <h4>National University of Radioelectronics</h4>
@@ -93,50 +117,68 @@
                 <h5>Management</h5>
 
                 <p>September 2009 - June 2014 | Country</p>
-            </div>
-        </div>
-        <!--Sidebar-->
-        <aside>
-            <img src="img/DSC_3438_.jpg" alt="user photo" width="280" height="400">
-            <!--Contacts-->
-            <div>
-                <h3>Contacts</h3>
-                <div>
-                    <p>C: 
-                        <a href="tel:+77777777777">+7 777 777 77 77</a>
-                    </p>
-                    <p>E: 
-                        <a href="mailto:chornyiav@gmail.com">chornyiav@gmail.com</a>
-                    </p>
-                </div>
-            </div>
-            <!--Tech Skills-->
-            <div>
-                <h3>Tech Skills</h3>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>GIT</li>
-                    <li>WebPack</li>
-                    <li>JavaScript</li>
-                    <li>React.js</li>
-                    <li>Node.js</li>
-                </ul>
 
             </div>
-            <!--Soft Skills-->
-            <div>
-                <h3>Soft Skills</h3>
-                <ul>
-                    <li>Scrum</li>
-                    <li>Agile</li>
-                    <li>GTD</li>
-                    <li>Teamwork</li>
+
+        </div>
+
+        <!--Sidebar-->
+        <aside class="sidebar">
+            <img class="photo" src="img/DSC_3438_.jpg" alt="user photo" width="280" height="380">
+            
+            <div class="sidebar-content">
+
+             <!--Contacts-->
+             <div class="contacts">
+
+                <h3 class="sidebar-title">Contacts</h3>
+
+                <div>
+                    <p> <span class="contact-type">C:</span>
+                        <a class="tel" href="tel:+77777777777">+7 777 777 77 77</a>
+                    </p>
+                    <p> <span class="contact-type">E:</span> 
+                        <a class="mail" href="mailto:chornyiav@gmail.com">chornyiav@gmail.com</a>
+                    </p>
+                </div>
+
+             </div>
+
+             <!--Tech Skills-->
+             <div class="tech-skills">
+
+                <h3 class="sidebar-title">Tech Skills</h3>
+
+                <ul class="side-list">
+                    <li class="item"> <span class="skills">HTML5</span> </li>
+                    <li class="item"> <span class="skills">CSS3</span> </li>
+                    <li class="item"> <span class="skills">GIT</span> </li>
+                    <li class="item"> <span class="skills">WebPack</span> </li>
+                    <li class="item"> <span class="skills">JavaScript</span> </li>
+                    <li class="item"> <span class="skills">React.js</span> </li>
+                    <li class="item"> <span class="skills">Node.js</span> </li>
                 </ul>
+
+             </div>
+
+             <!--Soft Skills-->
+             <div class="soft-skills">
+
+                <h3 class="sidebar-title">Soft Skills</h3>
+
+                <ul class="side-list">
+                    <li class="item"> <span class="skills">Scrum</span> </li>
+                    <li class="item"> <span class="skills">Agile</span> </li>
+                    <li class="item"> <span class="skills">GTD</span> </li>
+                    <li class="item"> <span class="skills">Teamwork</span> </li>
+                </ul>
+
+             </div>
 
             </div>
 
         </aside>
+
     </Div>
 </body>
 </html>
