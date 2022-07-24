@@ -27,9 +27,8 @@ body {
 }
 
 /* about user styles */
-.about-user {
-    
-}
+/* .about-user {
+} */
 
 /* sidebar */
 .sidebar {
@@ -40,9 +39,8 @@ body {
 }
 
 /* photo */
-.photo {
-
-}
+/* .photo {
+} */
 
 /* sidebar-content */
 .sidebar-content {
@@ -57,8 +55,6 @@ body {
     font-size: 22px; 
     line-height: 27px; 
     line-height: 100%; 
-    Align: Left; 
-    vertical-align: Top;
 }
 
 /* contact-type */
@@ -67,8 +63,6 @@ body {
     font-size: 14px; 
     line-height: 24px; 
     line-height: 141%; 
-    Align: Left; 
-    vertical-align: Top;
     margin-right: 10px;
 }
 
@@ -80,23 +74,19 @@ body {
 .tel {
     text-decoration: none;
     color: #A6A9AD;
-    Font-style: Regular; 
-    Font-size: 14px; 
+    font-style: Regular; 
+    font-size: 14px; 
     line-height: 24px; 
     line-height: 141%; 
-    Align: Left; 
-    vertical-align: Top;
 }
 
 .mail {
     text-decoration: none;
     color: #A6A9AD;
-    Font-style: Regular;
-    Font-size: 14px;
+    font-style: Regular;
+    font-size: 14px;
     line-height: 24px;
     line-height: 141%;
-    Align: Left;
-    vertical-align: Top;
 }
 
 /* tech-skills */
@@ -112,8 +102,6 @@ body {
     font-size: 14px;
     line-height: 24px;
     line-height: 141%; 
-    Align: Left; 
-    vertical-align: Top;
 }
 
 /* item */
