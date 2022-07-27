@@ -9,17 +9,17 @@ body {
 .main {
     display: flex;
     flex-direction: row-reverse;
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 /* main content */
 .main-content {
     background-color: #FFFFFF;
-    padding: 100px 100px 100px 90px;
-    background: #FFFFFF;
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-        
+    padding: 100px 90px;
+       
     /* margin: (верх право низ лево)px; 
     margin: 100px; отступы со всех сторон блока
     margin: (верх, низ)px (лево, право)px; */
@@ -29,6 +29,7 @@ body {
 /* about user styles */
 
 .about-user {
+    margin-top: 10px;
     margin-bottom: 40px;
 }
 
@@ -60,7 +61,6 @@ body {
     color: #000000;
     /* border: 1px solid #000000; */
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    width: 400px;
 }
 
 /* projects */
@@ -193,7 +193,6 @@ body {
     background-color: #1E2939;
     padding-top: 40px;
     width: 260px;
-    
 }
 
 /* sidebar-content */
@@ -201,6 +200,7 @@ body {
     margin-top: 50px;
     margin-left: 40px;
     color: white;
+    /* width: 200px; */
 }
 
 /* sidebar-title */
@@ -267,4 +267,8 @@ body {
 /* skills */
 .skills {
     color: white;
+}
+
+.lang-skills {
+    padding-bottom: 40px;
 }
